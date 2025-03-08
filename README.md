@@ -61,7 +61,7 @@ git clone https://github.com/anjalijaiswal23/Lumel.git
 
 ### 2. **Navigate to the Project Directory**  
 ```bash
-cd cd hierarchical-table
+cd hierarchical-table
 ```
 
 ### 3. **Install Dependencies**  

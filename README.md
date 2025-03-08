@@ -56,7 +56,7 @@ src
 
 ### 1. **Clone the Repository**  
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/anjalijaiswal23/Lumel.git
 ```
 
 ### 2. **Navigate to the Project Directory**  

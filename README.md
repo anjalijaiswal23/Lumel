@@ -74,13 +74,6 @@ Or with yarn:
 yarn install
 ```
 
----
-
-## ⚙️ **Setup Environment Variables**
-1. Create a `.env` file in the root directory:
-```
-VITE_PORT=5000
-```
 
 ---
 
@@ -105,17 +98,7 @@ npm run build
 ✅ **Variance Calculation** – Variance is calculated based on original value.  
 ✅ **Recursive State Update** – State is updated using `useState` and recursive functions.  
 
----
 
-## 📊 **API Endpoints**
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `GET`  | `/api/data` | Fetch table data |
-| `POST` | `/api/update` | Update row value |
-| `PUT`  | `/api/update/:id` | Update row value directly |
-| `DELETE`| `/api/delete/:id` | Delete row value |
-
----
 
 ## 🏆 **Features**
 ✅ Dynamic Hierarchy  
@@ -162,17 +145,6 @@ npm test
 
 
 
----
-
-## 🤝 **Contributing**
-Contributions are welcome!  
-1. Fork the project  
-2. Create a feature branch (`git checkout -b feature/your-feature`)  
-3. Commit your changes (`git commit -m 'Add new feature'`)  
-4. Push to the branch (`git push origin feature/your-feature`)  
-5. Open a Pull Request  
-
----
 
 ## 🛡️ **License**
 This project is licensed under the [MIT License](LICENSE).

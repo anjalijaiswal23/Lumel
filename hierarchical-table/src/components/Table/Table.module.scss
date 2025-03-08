@@ -1,0 +1,27 @@
+@import '../../Styles/variables';
+@import '../../Styles/mixins';
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: $spacing-large 0;
+
+  th {
+    background-color: $primary-color;
+    color: white;
+    padding: $spacing-small;
+    text-align: left;
+  }
+
+  td {
+    @include tableCell;
+  }
+
+  tr:nth-child(even) {
+    background-color: lighten($background-color, 5%);
+  }
+
+  tr:hover {
+    background-color: lighten($background-color, 10%);
+  }
+}

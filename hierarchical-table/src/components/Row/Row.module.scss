@@ -1,0 +1,28 @@
+@import '../../Styles/variables';
+@import '../../Styles/mixins';
+
+.row {
+  td {
+    @include tableCell;
+  }
+
+  input {
+    width: 100px;
+    padding: $spacing-small;
+    border: 1px solid #ccc;
+    border-radius: $border-radius;
+  }
+
+  .btn {
+    @include buttonStyle($secondary-color);
+
+    &--percentage {
+      @include buttonStyle($primary-color);
+    }
+  }
+
+  .variance {
+    @include varianceColor(5);
+    font-weight: bold;
+  }
+}

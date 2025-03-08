@@ -1,0 +1,12 @@
+@import './variables';
+@import './mixins';
+@import './reset';
+
+body {
+  font-size: $font-size-base;
+}
+
+h1 {
+  font-size: $font-size-large;
+  color: $primary-color;
+}

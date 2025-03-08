@@ -1,0 +1,25 @@
+@import '../Styles/variables';
+@import '../Styles/mixins';
+
+.layout {
+  @include flexCenter(column);
+  min-height: 100vh;
+  padding: $spacing-large;
+
+  header {
+    background-color: $primary-color;
+    color: white;
+    padding: $spacing-medium;
+    width: 100%;
+    text-align: center;
+  }
+
+  footer {
+    margin-top: auto;
+    padding: $spacing-medium;
+    background-color: lighten($primary-color, 10%);
+    color: white;
+    text-align: center;
+    width: 100%;
+  }
+}

@@ -17,8 +17,7 @@ This project is a React.js-based hierarchical table component where parent rows 
 
 ## 🛠️ **Technologies Used**
 - **React.js**  
-- **Node.js**  
-- **Sass** (using `@use` and `@forward`)  
+- **Scss**
 - **JavaScript (ES6+)**  
 - **Vite** (for fast builds and HMR)  
 

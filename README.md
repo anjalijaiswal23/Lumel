@@ -1,4 +1,4 @@
-Here’s a professional `README.md` file specifically tailored for your **Hierarchical Table React.js Assignment** using Node.js and Sass:
+Here’s a professional `README.md` file specifically tailored for your **Hierarchical Table React.js Assignment** using react.js and Scss:
 
 ---
 
